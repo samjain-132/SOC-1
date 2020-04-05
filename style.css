@@ -1,0 +1,276 @@
+html {
+  scroll-behavior: smooth;
+}
+.home {
+  width: 100vw;
+  height: 100vh;
+}
+.about {
+  width: 100vw;
+  height: 210vh;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.topnav {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+  font-size: 2rem;
+  position: sticky;
+  top: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topnav:hover {
+  background-color: #ddd;
+  color: black;
+}
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("./images/bg\ image1.jpeg");
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+}
+.about {
+  background-image: url("./images/background-2.png");
+  margin: 0px;
+}
+.stats {
+  width: 100vw;
+  height1000vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("./images/stats-bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+.contact {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("./images/strategyWar.jpeg");
+  background-attachment: fixed;
+  background-repeat: round;
+  width: 100vw;
+  height: 50vh;
+  margin-top: 0px;
+}
+
+#ab {
+  font-size: 8rem;
+  margin-left: 9rem;
+  margin-bottom: 0px;
+  font-family: "Domine", serif;
+  font-weight: 500;
+}
+#dash {
+  color: violet;
+}
+#social {
+  margin-left: 11rem;
+  font-size: 3.5rem;
+  font-family: "Metrophobic", sans-serif;
+  font-weight: 200;
+  color: gainsboro;
+  margin-top: 0px;
+}
+#logo {
+  width: 200px;
+}
+#move a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 4px;
+  text-decoration: none;
+  color: white;
+  display: inline;
+  font-size: 2rem;
+  margin-right: 20px;
+  margin-left: 85rem;
+  margin-bottom: 3rem;
+}
+#line1 {
+  color: rgb(241, 11, 203);
+  margin-top: 8rem;
+  margin-left: 15rem;
+  font-size: 1.5rem;
+  font-family: "Metrophobic", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 250;
+  margin-bottom: 0px;
+}
+#line2 {
+  color: rgb(0, 0, 0);
+  margin-top: 2rem;
+  margin-left: 15rem;
+  font-size: 5rem;
+  font-family: "Domine", serif;
+  font-weight: 600;
+  margin-top: 10px;
+}
+#para1 {
+  color: rgb(0, 0, 0);
+  margin: 10px 15rem;
+  font-size: 1.7rem;
+  font-family: "Metrophobic", sans-serif;
+  font-weight: 75;
+  line-height: 2.675rem;
+  word-wrap: break-word;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+}
+.tile-l {
+  margin-left: 15rem;
+  width: 36rem;
+  height: 30rem;
+  display: inline-block;
+  margin-top: 2rem;
+  float: left;
+}
+.tile-r {
+  margin-right: 15rem;
+  width: 36rem;
+  height: 30rem;
+  display: inline-block;
+  margin-top: 2rem;
+  float: right;
+}
+#tile1h {
+  float: left;
+  font-size: 3rem;
+  font-family: "Metrophobic", sans-serif;
+  font-weight: bold;
+  width: 36rem;
+}
+#tile4h {
+  float: left;
+  font-size: 3rem;
+  font-family: "Metrophobic", sans-serif;
+  font-weight: bold;
+  width: 36rem;
+}
+.desc {
+  font-size: 1.5rem;
+  font-weight: 100;
+  font-family: "Metrophobic", sans-serif;
+  letter-spacing: 2px;
+  line-height: 2rem;
+}
+#tile2{
+  background-image: url("./images/abd.jpg");
+  background-repeat: round;
+}
+#tile3{
+  background-image: url("./images/abd.jpg");
+  background-repeat: round;
+}
+.butt button {
+  width: 25rem;
+  border-color: black;
+  border-radius: 20%;
+  color: black;
+  height: 4rem;
+  font-size: 2rem;
+  color: black;
+  background-color: turquoise;
+}
+image {
+  margin: 2rem;
+}
+input[type="text"] {
+  width: 100%;
+  height: 2.5rem;
+  font-size: 2rem;
+  padding: 1px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border: 3px solid yellow;
+}
+input[type="email"] {
+  width: 100%;
+  height: 2.5rem;
+  font-size: 2rem;
+  padding: 10px 4px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="email"]:focus {
+  border: 3px solid yellow;
+}
+input[type="number"] {
+  width: 100%;
+  height: 2.5rem;
+  font-size: 2rem;
+  padding: 5px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="number"]:focus {
+  border: 3px solid yellow;
+}
+.labels {
+  color: white;
+  font-size: 2rem;
+}
+.register {
+  font-size: 5rem;
+  font-family: "Domine", serif;
+  color: aquamarine;
+  margin: 20px auto 5rem auto;
+}
+#button2{
+  display: block;
+  width: 20rem;
+  margin: 2rem auto 0px auto;
+  height: 5rem;
+  background-color: cyan;
+  color: black;
+  border-radius: 25%;
+  font-size: 3rem;
+}
+#me{
+  font-size: 5rem;
+  font-family: "Domine", serif;
+  font-weight: bold;
+  margin: 1rem 40rem 1rem 40rem;
+  color: bisque;
+  text-align: center;
+}
+#team{
+  font-size: 2rem;
+  font-family: "Domine", serif;
+  font-weight: 200;
+  margin: 1rem 60rem 1rem 50rem;
+  color: bisque ;
+  text-align: center;
+}
+#all{
+  font-size: 7rem;
+  font-family: "Domine", serif;
+  font-weight: bold;
+  margin: 1rem 15rem 1rem 25rem;
+  color: gold;
+  text-align: center;
+}
